@@ -7,3 +7,9 @@ body {
     color: #000000;
     background-color: #F08C69;
 }
+
+/* NAv Styling */
+
+.navbar {
+    border-bottom: 4px solid #000000;
+}
