@@ -8,8 +8,62 @@ body {
     background-color: #F08C69;
 }
 
-/* NAv Styling */
+/* Header & Body Font Sizes */
+
+.header-large {
+    font-size: 8.7rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.812rem;
+}
+
+h3 {
+    font-size: 2.938rem;
+}
+
+h4 {
+    font-size: 2.250rem;
+}
+
+h5 {
+    font-size: 1.688rem;
+}
+
+.p-large {
+    font-size: 1.312rem;
+}
+
+.p-small {
+    font-size: 0.750rem;
+}
+
+.p-xsmall {
+    font-size: 0.562rem;
+}
+
+
+/* Nav Styling */
 
 .navbar {
     border-bottom: 4px solid #000000;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.nav-container {
+    padding: 0;
 }
