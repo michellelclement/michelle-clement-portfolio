@@ -1,0 +1,9 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+    background-color: #F08C69;
+}
