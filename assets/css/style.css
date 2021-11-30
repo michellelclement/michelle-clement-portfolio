@@ -67,3 +67,15 @@ h5 {
 .nav-container {
     padding: 0;
 }
+
+.navbar-toggler {
+    border: none;
+    
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
