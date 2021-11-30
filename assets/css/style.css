@@ -49,6 +49,19 @@ h5 {
 
 /* Nav Styling */
 
+
+.nav-button:hover,
+.nav-button:focus {
+    background-color: #000000;
+    border-radius: 100000px;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+}
+
 .navbar {
     border-bottom: 4px solid #000000;
     margin-left: 40px;
@@ -79,3 +92,28 @@ h5 {
       outline: none;
       box-shadow: none;
   }
+
+
+/* button Styling */
+
+.button-main {
+    background-color: #000000;
+    border-radius: 100000px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+}
+
+.nav-button-test:hover {
+    background-color: #000000;
+    border-radius: 100000px;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+}
