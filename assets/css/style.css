@@ -8,6 +8,11 @@ body {
     background-color: #F08C69;
 }
 
+.content-container {
+    max-width: 1120px;
+    border: 2px solid red;
+}
+
 /* Header & Body Font Sizes */
 
 .header-large {
@@ -65,7 +70,7 @@ h5 {
 }
 
 .nav-link:hover {
-    color: #333333;
+    color: #141414;
 }
 
 .nav-link-contact {
@@ -90,7 +95,7 @@ h5 {
 }
 
 .navbar-brand:hover {
-    color: #333333;
+    color: #141414;
 }
 
 .nav-container {
@@ -122,4 +127,7 @@ h5 {
     display: inline-block;
     font-size: 27px;
 }
+
+
+/* Name Section Styling */
 
