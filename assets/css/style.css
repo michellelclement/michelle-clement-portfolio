@@ -11,7 +11,6 @@ body {
 
 .content-container {
     max-width: 1440px;
-    border: 2px solid red;
     padding: 50px 150px;
 }
 
@@ -137,12 +136,43 @@ h5 {
 
 /* Media Queries */
 
+@media (max-width: 991.98px) { 
+    .content-container {
+        max-width: 991.98px;
+        padding: 50px 50px;
+    }
+    .header-large {
+        font-size: 6em;
+    }
+}
+
 
 
  @media (max-width: 767.98px) {
- .content-container {
-    max-width: 1440px;
-    border: 2px solid red;
-    padding: 50px 50px;
+    .content-container {
+        max-width: 767.98px;
+        padding: 50px 50px;
+    }
+
+    .header-large {
+        font-size: 3.8em;
+    }
+
+    h5 {
+        font-size: 21px;
+    }
 }
- }
+
+
+ @media (max-width: 600px) {
+    .content-container {
+       max-width: 600px;
+       padding: 50px 50px;
+   }
+   
+   .header-large {
+       font-size: 62px;
+   }
+
+   
+}
