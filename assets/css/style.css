@@ -49,9 +49,26 @@ h5 {
 
 /* Nav Styling */
 
+.navbar {
+    border-bottom: 4px solid #000000;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #000000;
+}
 
-.nav-button:hover,
-.nav-button:focus {
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #333333;
+}
+
+.nav-link-contact {
     background-color: #000000;
     border-radius: 100000px;
     color: white;
@@ -62,19 +79,18 @@ h5 {
     font-size: 21px;
 }
 
-.navbar {
-    border-bottom: 4px solid #000000;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.nav-item {
-    margin-left: 2rem;
+.nav-link-contact:hover {
+    color: lightgrey;
 }
 
 .navbar-brand {
     font-size: 32px;
     font-weight: 500;
+    color: #000000;
+}
+
+.navbar-brand:hover {
+    color: #333333;
 }
 
 .nav-container {
@@ -107,13 +123,3 @@ h5 {
     font-size: 27px;
 }
 
-.nav-button-test:hover {
-    background-color: #000000;
-    border-radius: 100000px;
-    color: white;
-    padding: 8px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 21px;
-}
