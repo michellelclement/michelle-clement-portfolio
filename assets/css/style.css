@@ -6,49 +6,51 @@ body {
     font-family: 'DM Sans', sans-serif;
     color: #000000;
     background-color: #F08C69;
+    font-size: 16px;
 }
 
 .content-container {
-    max-width: 1120px;
+    max-width: 1440px;
     border: 2px solid red;
+    padding: 50px 150px;
 }
 
 /* Header & Body Font Sizes */
 
 .header-large {
-    font-size: 8.7rem;
+    font-size: 8.7em;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 5em;
 }
 
 h2 {
-    font-size: 3.812rem;
+    font-size: 3.812em;
 }
 
 h3 {
-    font-size: 2.938rem;
+    font-size: 2.938em;
 }
 
 h4 {
-    font-size: 2.250rem;
+    font-size: 2.250em;
 }
 
 h5 {
-    font-size: 1.688rem;
+    font-size: 1.688em;
 }
 
 .p-large {
-    font-size: 1.312rem;
+    font-size: 1.312em;
 }
 
 .p-small {
-    font-size: 0.750rem;
+    font-size: 0.750em;
 }
 
 .p-xsmall {
-    font-size: 0.562rem;
+    font-size: 0.562em;
 }
 
 
@@ -62,7 +64,7 @@ h5 {
 }
 
 .nav-item {
-    margin-left: 2rem;
+    margin-left: 2em;
 }
 
 .nav-link {
@@ -131,3 +133,16 @@ h5 {
 
 /* Name Section Styling */
 
+
+
+/* Media Queries */
+
+
+
+ @media (max-width: 767.98px) {
+ .content-container {
+    max-width: 1440px;
+    border: 2px solid red;
+    padding: 50px 50px;
+}
+ }
