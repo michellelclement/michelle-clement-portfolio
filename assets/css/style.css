@@ -132,8 +132,21 @@ h5 {
 
 /* Name Section Styling */
 
+/* Projects Section Styling */
 
+.card {
+    border: none;
+    background-color: transparent;
+}
 
+.card-body {
+    padding-left: 0;
+    padding-top: 36px;
+}
+
+.card-body p {
+    padding-top: 16px;
+}
 /* Media Queries */
 
 @media (max-width: 991.98px) { 
