@@ -188,5 +188,11 @@ h5 {
        font-size: 62px;
    }
 
+   .card {
+    padding-top: 56px;
+    }
    
+    .card-body {
+        padding-top: 30px;
+    }
 }
