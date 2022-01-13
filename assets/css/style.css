@@ -16,6 +16,10 @@ body {
 
 /* Header & Body Font Sizes */
 
+.header-xlarge {
+    font-size: 11.25em;
+}
+
 .header-large {
     font-size: 8.7em;
 }
@@ -131,6 +135,8 @@ h5 {
 
 
 /* Name Section Styling */
+
+
 
 /* Projects Section Styling */
 
