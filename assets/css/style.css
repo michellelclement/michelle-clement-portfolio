@@ -192,8 +192,9 @@ h5 {
         max-width: 991.98px;
         padding: 50px 50px;
     }
-    .header-large {
-        font-size: 6em;
+    .header-xlarge {
+        font-size: 135px;
+        line-height: 68px;
     }
 }
 
@@ -205,9 +206,10 @@ h5 {
         padding: 50px 50px;
     }
 
-    .header-large {
-        font-size: 3.8em;
-    }
+    .header-xlarge {
+        font-size: 68px;
+        line-height: 68px;
+       }
 
     h5 {
         font-size: 21px;
@@ -221,9 +223,7 @@ h5 {
        padding: 50px 50px;
    }
    
-   .header-large {
-       font-size: 62px;
-   }
+   
 
    .card {
     padding-top: 56px;
