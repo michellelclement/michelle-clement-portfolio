@@ -137,16 +137,19 @@ h5 {
 .card {
     border: none;
     background-color: transparent;
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
+.card-img-top {
+    border: red solid 4px; 
+}
 .card-body {
     padding-left: 0;
-    padding-top: 36px;
+    margin-top: 36px;
 }
 
 .card-body p {
-    padding-top: 16px;
+    padding: 0px;
 }
 /* Media Queries */
 
