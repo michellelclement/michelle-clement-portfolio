@@ -145,10 +145,6 @@ h5 {
 .name-section {
     height: 80vh;
 }
-.name-container {
-    position: relative;
-    top: 50px;
-}
 
 .main-header-text {
     line-height: 198px;
