@@ -165,10 +165,15 @@ h5 {
     border: none;
     background-color: transparent;
     margin-top: 80px;
+    border-radius: 0px;
 }
 
+.card-img {
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
+}
 .card-img-top {
-    border: black solid 4px; 
+    border: red solid 4px; 
 }
 
 .card-img-ctr {
