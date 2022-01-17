@@ -172,8 +172,22 @@ h5 {
     border: black solid 4px; 
 }
 
+.card-img-ctr {
+    position: relative;
+    width: 100%;
+}
+
+
+.card-img-ctr .button-projects {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 .card-img-top>img:hover {
-    border: green solid 4px; 
     visibility: hidden;
 }
 
