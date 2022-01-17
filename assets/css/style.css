@@ -10,7 +10,7 @@ body {
 }
 
 .content-container {
-    max-width: 1440px;
+    max-width: 1200px;
     padding: 40px;
 }
 
@@ -144,6 +144,7 @@ h5 {
 
 .name-section {
     height: 80vh;
+    padding: 40px 40px;
 }
 
 .main-header-text {
@@ -151,7 +152,7 @@ h5 {
 }
 
 .job-title {
-    margin-top: 63px;
+    margin-top: 30px;
 }
 
 .scroll-details-container {
@@ -161,8 +162,7 @@ h5 {
 
 hr {
         border-bottom: 4px solid #000000;
-        margin-left: 40px;
-        margin-right: 40px;
+
         color: #000000;
         height: 100px;
         opacity: 1;
