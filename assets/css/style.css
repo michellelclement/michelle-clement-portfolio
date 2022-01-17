@@ -11,7 +11,7 @@ body {
 
 .content-container {
     max-width: 1440px;
-    padding: 50px 150px;
+    padding: 40px;
 }
 
 .full-width-container {
@@ -214,27 +214,20 @@ hr {
 /* Media Queries */
 
 @media (max-width: 991.98px) { 
-    .content-container {
-        max-width: 991.98px;
-        padding: 50px 50px;
-    }
     .header-xlarge {
         font-size: 135px;
-        line-height: 68px;
+        line-height: 150px;
     }
 }
 
-/*
+
 
  @media (max-width: 767.98px) {
-    .content-container {
-        max-width: 767.98px;
-        padding: 50px 50px;
-    }
+
 
     .header-xlarge {
-        font-size: 68px;
-        line-height: 68px;
+        font-size: 85px;
+        line-height: 100px;
        }
 
     h5 {
@@ -243,14 +236,14 @@ hr {
 }
 
 
- @media (max-width: 600px) {
-    .content-container {
-       max-width: 600px;
-       padding: 50px 50px;
-   }
-   
-   
 
+ @media (max-width: 600px) {
+    .header-xlarge {
+        font-size:62px;
+        line-height: 68.2px;
+       }
+   
+   
    .card {
     padding-top: 56px;
     }
@@ -259,4 +252,3 @@ hr {
         padding-top: 30px;
     }
 }
-*/
