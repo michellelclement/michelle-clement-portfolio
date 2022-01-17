@@ -218,15 +218,23 @@ hr {
         font-size: 135px;
         line-height: 150px;
     }
+
+    .name-section {
+        padding-top: 100px;
+        height: 75vh;
+    }
 }
 
 
 
  @media (max-width: 767.98px) {
-
+    .name-section {
+        padding-top: 150px;
+        height: 60vh;
+    }
 
     .header-xlarge {
-        font-size: 85px;
+        font-size: 105px;
         line-height: 100px;
        }
 
@@ -238,12 +246,17 @@ hr {
 
 
  @media (max-width: 600px) {
+    
+    
     .header-xlarge {
         font-size:62px;
         line-height: 68.2px;
        }
    
-   
+   .job-title h5 {
+        font-size: 20px;
+        line-height: 24px;
+   }
    .card {
     padding-top: 56px;
     }
