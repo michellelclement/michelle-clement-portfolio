@@ -142,6 +142,9 @@ h5 {
 
 /* Name Section Styling */
 
+.name-section {
+    height: 80vh;
+}
 .name-container {
     position: relative;
     top: 50px;
@@ -158,6 +161,18 @@ h5 {
 .scroll-details-container {
     margin-top: 40px;;
 }
+
+
+hr {
+        border-bottom: 4px solid #000000;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #000000;
+        height: 100px;
+        opacity: 1;
+        position: relative;
+        top: 90%;
+    }
 
 /* Projects Section Styling */
 
@@ -213,7 +228,7 @@ h5 {
     }
 }
 
-
+/*
 
  @media (max-width: 767.98px) {
     .content-container {
@@ -248,3 +263,4 @@ h5 {
         padding-top: 30px;
     }
 }
+*/
