@@ -133,6 +133,13 @@ h5 {
       box-shadow: none;
   }
 
+footer {
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #000000;
+
+    }
+}
 
 /* button Styling */
 
