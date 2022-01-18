@@ -81,6 +81,8 @@ h5 {
 /* Nav Styling */
 
 .navbar {
+    position: relative;
+    z-index: 1;
     border-bottom: 4px solid #000000;
     margin-left: 40px;
     margin-right: 40px;
@@ -166,6 +168,11 @@ h5 {
 }
 
 /* Gradient  */
+
+.gradient-container {
+
+}
+
 .gradient-1 {
     height: 800px;
     width: 800px;
@@ -373,6 +380,13 @@ footer {
 
  @media (max-width: 600px) {
     
+    .gradient-1 {
+        height: 700px;
+        width: 700px;
+        left: -200px;
+        top: -200px
+    }
+
     .name-section {
         padding-top: 136px;
         height: 60vh;
