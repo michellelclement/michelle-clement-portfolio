@@ -1,7 +1,7 @@
 /* * {
     outline: 1px solid red;
-}
-*/ 
+} */
+
 
 html,
 body {
@@ -23,6 +23,7 @@ body {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 
 /* Header & Body Font Sizes */
 
@@ -152,6 +153,8 @@ h5 {
 .name-section {
     height: 80vh;
     padding: 40px 40px;
+    position: relative;
+    z-index: 1;
 }
 
 .main-header-text {
@@ -160,6 +163,18 @@ h5 {
 
 .job-title {
     margin-top: 30px;
+}
+
+/* Gradient  */
+.gradient-1 {
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    z-index: 0;
+    background: rgb(81,103,240);
+    background: radial-gradient(circle, rgba(81,103,240,0.41360294117647056) 30%, rgba(64,77,163,0) 70%);
+    top: 150px;
+    left: 750px;
 }
 
 .scroll-details-container {
