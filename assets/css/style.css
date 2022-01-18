@@ -269,12 +269,9 @@ hr {
 
     .name-container {
         padding-top: 0px;
-    }
-
-    .content-container {
         padding: 0px;
     }
-    
+
     .header-xlarge {
         font-size: 63px;
         line-height: 68.2px;
@@ -283,9 +280,14 @@ hr {
     h2 {
         font-size: 32px;
     }
-    
-    h4 {
+
+    h3 {
         font-size: 21px;
+        font-weight: normal;
+    }
+    
+    .p-large {
+        font-size: 14px;
     }
 
     .intro-container {
@@ -300,7 +302,7 @@ hr {
     .intro-col {
         margin-left: 0;
     }
-    .intro-row h4 {
+    .intro-row h3 {
         padding-top: 56px;
         
     }
@@ -312,7 +314,7 @@ hr {
 
    .card {
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 50px;
     }
    
     .card-body {
