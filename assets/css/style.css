@@ -251,6 +251,10 @@ footer {
     font-size: 27px;
 }
 
+.footer-item {
+    justify-content: end;
+}
+
 .footer-slash {
     margin-left: 15px;
     margin-right: 15px;
@@ -276,7 +280,16 @@ footer {
     .large-text-center {
         padding: 56px 40px;
     }
-    
+
+    footer {
+        display: block;
+        font-size: 16px;
+    }
+  
+    .footer-item,
+    .footer-c {
+        justify-content: center;
+    }
 }
 
 
