@@ -29,7 +29,7 @@ body {
     font-size: 8.7em;
 }
 
-.header-medium {
+.large-cta-text {
     font-size: 6.87em;
 }
 
@@ -235,6 +235,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 120px 40px;
 }
 
 /* Media Queries */
@@ -249,6 +250,15 @@ hr {
         padding-top: 100px;
         height: 75vh;
     }
+
+    .large-cta-text {
+        font-size: 65px;
+    }
+    
+    .large-text-center {
+        padding: 56px 40px;
+    }
+    
 }
 
 
@@ -331,4 +341,9 @@ hr {
     .card-body {
         padding-top: 10px;
     }
+
+    .large-cta-text {
+        font-size: 48px;
+    }
+
 }
