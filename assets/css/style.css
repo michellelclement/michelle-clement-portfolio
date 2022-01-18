@@ -280,11 +280,12 @@ hr {
     }
 
     .intro-container {
-        margin: ;
+        margin-top: 75px;
+        margin-bottom: 56px;
     }
     
     .intro-row {
-        
+        padding-right: 0;
     }
     
     .intro-col {
@@ -301,10 +302,11 @@ hr {
    }
 
    .card {
-    padding-top: 56px;
+    padding-top: 0px;
+    margin-top: 0px;
     }
    
     .card-body {
-        padding-top: 30px;
+        padding-top: 10px;
     }
 }
