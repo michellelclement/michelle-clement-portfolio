@@ -35,6 +35,7 @@ h1 {
 
 h2 {
     font-size: 3.812em;
+    font-weight: 400;
 }
 
 h3 {
@@ -43,6 +44,7 @@ h3 {
 
 h4 {
     font-size: 2.250em;
+    font-weight: 400;
 }
 
 h5 {
@@ -170,6 +172,19 @@ hr {
         top: 90%;
     }
 
+/* Intro Section */
+
+.intro-container {
+    margin: 180px 50px;
+}
+
+.intro-row {
+    padding-right: 75px;
+}
+
+.intro-row h4 {
+    padding-top: 120px;
+}
 /* Projects Section Styling */
 
 .card {
