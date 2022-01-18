@@ -309,8 +309,8 @@ footer {
     }
 
     .gradient-1 {
-        height: 600px;
-        width: 600px;
+        height: 800px;
+        width: 800px;
         left: -250px;
         top: -250px
     }
@@ -382,6 +382,12 @@ footer {
 
 
  @media (max-width: 600px) {
+    .gradient-1 {
+        height: 600px;
+        width: 600px;
+        left: -250px;
+        top: -150px
+    } 
 
     .name-section {
         padding-top: 136px;
@@ -394,7 +400,7 @@ footer {
     }
 
     .header-xlarge {
-        font-size: 63px;
+        font-size: 60px;
         line-height: 68.2px;
        }
     
