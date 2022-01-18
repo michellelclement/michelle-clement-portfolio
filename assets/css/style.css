@@ -270,11 +270,36 @@ hr {
         font-size: 63px;
         line-height: 68.2px;
        }
-   
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    h4 {
+        font-size: 21px;
+    }
+
+    .intro-container {
+        margin: ;
+    }
+    
+    .intro-row {
+        
+    }
+    
+    .intro-col {
+        margin-left: 0;
+    }
+    .intro-row h4 {
+        padding-top: 56px;
+        
+    }
+
    .job-title h5 {
         font-size: 20px;
         line-height: 24px;
    }
+
    .card {
     padding-top: 56px;
     }
