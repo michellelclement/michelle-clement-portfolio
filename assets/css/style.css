@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid red;
+}
+
 html,
 body {
     margin: 0px;
@@ -145,6 +149,7 @@ h5 {
     text-decoration: none;
     display: inline-block;
     font-size: 27px;
+    border: none;
 }
 
 /* Name Section Styling */
