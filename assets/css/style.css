@@ -169,10 +169,6 @@ h5 {
 
 /* Gradient  */
 
-.gradient-container {
-
-}
-
 .gradient-1 {
     height: 800px;
     width: 800px;
@@ -312,6 +308,13 @@ footer {
         line-height: 150px;
     }
 
+    .gradient-1 {
+        height: 600px;
+        width: 600px;
+        left: -250px;
+        top: -250px
+    }
+
     .name-section {
         padding-top: 100px;
         height: 75vh;
@@ -379,13 +382,6 @@ footer {
 
 
  @media (max-width: 600px) {
-    
-    .gradient-1 {
-        height: 700px;
-        width: 700px;
-        left: -200px;
-        top: -200px
-    }
 
     .name-section {
         padding-top: 136px;
