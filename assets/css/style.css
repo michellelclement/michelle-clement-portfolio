@@ -29,6 +29,11 @@ body {
     font-size: 8.7em;
 }
 
+.header-medium {
+    font-size: 6.87em;
+}
+
+
 h1 {
     font-size: 5em;
 }
@@ -225,6 +230,12 @@ hr {
     padding: 0px;
 }
 
+/* Bottom Large Text Section */
+.large-text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Media Queries */
 
