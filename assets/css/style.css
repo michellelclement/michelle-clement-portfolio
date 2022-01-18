@@ -341,6 +341,10 @@ footer {
         font-weight: normal;
     }
     
+    h4 {
+        font-size: 25px;
+    }
+
     .p-large {
         font-size: 14px;
     }
@@ -383,5 +387,9 @@ footer {
     .footer-slash {
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .footer-c p {
+        margin-bottom: 5px;
     }
 }
