@@ -1,6 +1,7 @@
-* {
+/* * {
     outline: 1px solid red;
 }
+*/ 
 
 html,
 body {
@@ -62,7 +63,8 @@ h5 {
     font-weight: 400;
 }
 
-.p-large {
+.p-large,
+.p-nav {
     font-size: 1.312em;
 }
 
@@ -127,16 +129,9 @@ h5 {
 }
 
 .navbar-toggler {
-    border: none;
-    
-  }
+    font-size: 32px;
+}
 
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-      outline: none;
-      box-shadow: none;
-  }
 
 /* button Styling */
 
@@ -171,10 +166,8 @@ h5 {
     margin-top: 40px;;
 }
 
-
 hr {
         border-bottom: 4px solid #000000;
-
         color: #000000;
         height: 100px;
         opacity: 1;
@@ -279,6 +272,19 @@ footer {
 /* Media Queries */
 
 @media (max-width: 991.98px) { 
+    
+    .nav-item {
+        margin: 0px;
+    }
+
+    .navbar {
+    height: 100px;
+    }
+
+    .nav-item-about {
+        margin: 24px;
+    }
+    
     .header-xlarge {
         font-size: 135px;
         line-height: 150px;
@@ -305,7 +311,6 @@ footer {
         padding-top: 56px;
         
     }
-
 
     .large-cta-text {
         font-size: 65px;
