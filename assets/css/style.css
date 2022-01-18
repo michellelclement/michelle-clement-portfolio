@@ -133,14 +133,6 @@ h5 {
       box-shadow: none;
   }
 
-footer {
-        margin-left: 40px;
-        margin-right: 40px;
-        color: #000000;
-
-    }
-}
-
 /* button Styling */
 
 .button-main {
@@ -243,6 +235,25 @@ hr {
     align-items: center;
     justify-content: center;
     padding: 120px 40px;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #000000;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px;
+}
+
+.footer-slash {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* Media Queries */
