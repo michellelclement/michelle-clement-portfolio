@@ -230,13 +230,6 @@ hr {
     opacity: 1;
 }
 
-/* .card-img:hover {
-    opacity: 0.1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   
-} */
 
 .card-img-ctr button {
     position: absolute;
@@ -326,7 +319,7 @@ footer {
         height: 800px;
         width: 800px;
         left: -250px;
-        top: -250px
+        top: -50px
     }
 
     .name-section {
@@ -400,7 +393,6 @@ footer {
         height: 600px;
         width: 600px;
         left: -250px;
-        top: -150px
     } 
 
     .name-section {
