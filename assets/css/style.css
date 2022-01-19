@@ -505,8 +505,12 @@ footer {
         height: 500px;
         width: 500px;
         left: -200px;
-        top: 75px;
     } 
+
+    .name-section {
+        padding-top: 110px;
+        height: 65vh;
+    }
 
     .button-projects {
         font-size: 21px;
