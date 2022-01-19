@@ -9,6 +9,11 @@ $(document).ready(function(){
         function(){$(".button-projects").css('visibility', 'visible');},
         function(){$(".button-projects").css('visibility', 'hidden');
         });
+
+    $(".hello-container").hover (
+        function(){$(this).css({backgroundColor: '#000000'},
+        function(){$(this).css({backgroundColor: '#000000'},);
+        });
 })
 
 
