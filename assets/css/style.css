@@ -29,22 +29,6 @@ body {
     margin-right: 40px;
 }
 
-.hello-container,
-.hello-text {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.hello-container.is-hovered {
-    background-color: black;
-}
-
-.hello-text.is-hovered {
-    color: white;
-}
 /* Header & Body Font Sizes */
 
 .header-xlarge {
@@ -62,6 +46,7 @@ body {
 
 h1 {
     font-size: 5em;
+    font-weight: 400;
 }
 
 h2 {
@@ -273,12 +258,39 @@ hr {
     padding: 0px;
 }
 
-/* Bottom Large Text Section */
+/* Technologies Section */
+.technologies-section {
+    margin-top: 120px;
+    margin-bottom: 180px
+}
+
+.technologies-section h5 {
+    padding-bottom: 58px;
+}
+
+/* Bottom/Hello  Large Text Section */
 .large-text-center {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 120px 40px;
+}
+
+.hello-container,
+.hello-text {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.hello-container.is-hovered {
+    background-color: black;
+}
+
+.hello-text.is-hovered {
+    color: white;
 }
 
 /* Footer */
@@ -397,13 +409,15 @@ footer {
         font-size: 105px;
         line-height: 100px;
        }
-    
-       
-
+    h1 {
+        font-size: 36px;
+    }
 
     h5 {
         font-size: 21px;
     }
+
+
 }
 
 
@@ -445,7 +459,6 @@ footer {
         font-weight: normal;
     }
     
-
     .p-large {
         font-size: 16px;
     }
@@ -454,8 +467,6 @@ footer {
         margin: 75px 50px 50px 50px;
     }
 
-
-
    .card {
     padding-top: 0px;
     margin-top: 50px;
@@ -463,6 +474,15 @@ footer {
    
     .card-body {
         padding-top: 10px;
+    }
+
+    .technologies-section {
+        margin-top: 40px;
+        margin-bottom: 100px
+    }
+    
+    .technologies-section h5 {
+        padding-bottom: 24px;
     }
 
     .large-cta-text {
