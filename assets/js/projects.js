@@ -1,10 +1,25 @@
 $(document).ready(function(){
-    
-    $(".card-img").hover(function() {
-        $(this).animate({opacity: 0.1});
-    }
-    );
+
+    $(".card-img").hover(
+        function(){$(this).animate({opacity: 0.1,}, 600);},
+        function(){$(this).animate({opacity: 1.0,}, 600);
+        });
+
+    $(".card-img").hover(
+        function(){$(".button-projects").css('visibility', 'visible');},
+        function(){$(".button-projects").css('visibility', 'hidden');
+        });
 })
+
+
+
+// $(document).ready(function(){
+    
+//    $(".card-img").hover(
+//        function() {$(this).stop().animate({opacity: 0.1,}, 600);},
+//        function() {$(this).stop().animate({opcity: 1.0,}, 600);
+//    });
+//})
 
 
 //
