@@ -14,7 +14,11 @@ $(document).ready(function(){
         function(){$(this).addClass("is-hovered");},
         function(){$(this).removeClass("is-hovered");
         });
-
+    
+    $(".hello-container").hover(
+        function(){$(".hello-text").addClass("is-hovered");},
+        function(){$(".hello-text").removeClass("is-hovered");
+            });
 })
 
 
