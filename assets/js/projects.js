@@ -10,27 +10,17 @@ $(document).ready(function(){
         function(){$(".button-projects").css('visibility', 'hidden');
         });
 
-    $(".hello-container").hover (
-        function(){$(this).css({backgroundColor: '#000000'},
-        function(){$(this).css({backgroundColor: '#000000'},);
+    $(".hello-container").hover(
+        function(){$(this).addClass("is-hovered");},
+        function(){$(this).removeClass("is-hovered");
         });
+
 })
 
 
 
-// $(document).ready(function(){
-    
-//    $(".card-img").hover(
-//        function() {$(this).stop().animate({opacity: 0.1,}, 600);},
-//        function() {$(this).stop().animate({opcity: 1.0,}, 600);
+
+//$(".hello-container").hover (
+//    function(){
+//        $(this).css({'background-color':'#000000'}, "slow");
 //    });
-//})
-
-
-//
-//$(document).ready(function(){
-//    $(".card-img").hover(
-//        function(){$(".card-img").css('visibility', 'hidden');},
-//        function(){$(".button-projects").css('visibility', 'visible');},
-//    );
-//})
