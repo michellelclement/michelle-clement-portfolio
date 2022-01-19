@@ -457,3 +457,16 @@ footer {
         margin-bottom: 5px;
     }
 }
+
+@media (max-width: 480px) {
+    
+    .gradient-1 {
+        height: 500px;
+        width: 500px;
+        left: -200px;
+    } 
+
+    .button-projects {
+        font-size: 25px;
+    }
+}
