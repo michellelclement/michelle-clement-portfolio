@@ -294,6 +294,20 @@ hr {
     color: white;
 }
 
+
+/* Personal images styling */
+
+.personal-images-div {
+    max-height: 506px;
+    max-width: 356px;
+}
+
+.personal-images {
+    object-fit: contain;
+    border-radius: 10000px;
+    border: solid 4px #000000;
+}
+
 /* Footer */
 
 footer {
