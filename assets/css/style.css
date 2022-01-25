@@ -306,6 +306,7 @@ hr {
     object-fit: contain;
     border-radius: 10000px;
     border: solid 4px #000000;
+    box-shadow: 4px 4px #F08C69, 20px 20px black;
 }
 
 /* Footer */
