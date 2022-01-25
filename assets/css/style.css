@@ -158,7 +158,7 @@ h5 {
 
 /* Name Section Styling */
 
-.name-section {
+.header-section {
     height: 80vh;
     padding: 40px 40px;
     position: relative;
@@ -294,6 +294,11 @@ hr {
     color: white;
 }
 
+/* About Page Styling */
+
+.header-button {
+    margin-top: 34px;
+}
 
 /* Personal images styling */
 
@@ -303,7 +308,6 @@ hr {
 }
 
 .personal-images {
-    object-fit: contain;
     border-radius: 10000px;
     border: solid 4px #000000;
     box-shadow: 4px 4px #F08C69, 20px 20px black;
@@ -370,7 +374,7 @@ footer {
         top: -50px
     }
 
-    .name-section {
+    .header-section {
         padding-top: 100px;
         height: 75vh;
     }
@@ -416,7 +420,7 @@ footer {
 
 
  @media (max-width: 767.98px) {
-    .name-section {
+    .header-section {
         padding-top: 150px;
         height: 70vh;
     }
@@ -446,12 +450,12 @@ footer {
         top: -150px;
     } 
 
-    .name-section {
+    .header-section {
         padding-top: 136px;
         height: 60vh;
     }
 
-    .name-container {
+    .header-container {
         padding-top: 0px;
         padding: 0px;
     }
@@ -523,7 +527,7 @@ footer {
         left: -200px;
     } 
 
-    .name-section {
+    .header-section {
         padding-top: 110px;
         height: 65vh;
     }
