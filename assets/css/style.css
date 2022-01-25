@@ -302,13 +302,6 @@ hr {
 
 /* Personal images styling */
 
-.profile-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0px;
-}
-
 .personal-images {
     border-radius: 10000px;
     border: solid 4px #000000;
@@ -316,7 +309,11 @@ hr {
 }
 
 
-
+.profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 
 footer {
@@ -481,7 +478,7 @@ footer {
        margin-bottom: 27px;
    }
 
-   .profile-image {
+   .profile-image img {
        max-height: 255px;
        margin-bottom: 60px
    }
