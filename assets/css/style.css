@@ -465,10 +465,26 @@ footer {
         line-height: 68.2px;
        }
     
-       .job-title h5 {
+       .job-title h5,
+       h5 {
         font-size: 20px;
         line-height: 24px;
    }
+
+   .header-large {
+       font-size: 48px;
+       margin-bottom: 27px;
+   }
+
+   .personal-images {
+       max-height: 255px;
+       margin-bottom: 60px
+   }
+
+    .header-button {
+        font-size: 20px;
+        margin-top: 0px;
+    }
 
     h2 {
         font-size: 32px;
