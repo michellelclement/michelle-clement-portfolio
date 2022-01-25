@@ -302,9 +302,11 @@ hr {
 
 /* Personal images styling */
 
-.personal-images-div {
-    max-height: 506px;
-    max-width: 356px;
+.profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
 }
 
 .personal-images {
@@ -312,6 +314,8 @@ hr {
     border: solid 4px #000000;
     box-shadow: 4px 4px #F08C69, 20px 20px black;
 }
+
+
 
 /* Footer */
 
@@ -420,9 +424,9 @@ footer {
 
 
  @media (max-width: 767.98px) {
-    .header-section {
-        padding-top: 150px;
-        height: 70vh;
+    .header-section-subpage {
+        padding-top: 0px;
+        height: 90vh;
     }
 
     .header-xlarge {
@@ -450,11 +454,12 @@ footer {
         top: -150px;
     } 
 
-    .header-section {
-        padding-top: 136px;
-        height: 60vh;
-    }
 
+    .header-section-subpage {
+        padding-top: 0px;
+        height: 90vh;
+    }
+    
     .header-container {
         padding-top: 0px;
         padding: 0px;
@@ -472,11 +477,11 @@ footer {
    }
 
    .header-large {
-       font-size: 48px;
+       font-size: 60px;
        margin-bottom: 27px;
    }
 
-   .personal-images {
+   .profile-image {
        max-height: 255px;
        margin-bottom: 60px
    }
@@ -536,7 +541,10 @@ footer {
 }
 
 @media (max-width: 480px) {
-    
+    .content-container {
+        padding: px 0px;
+    }
+
     .gradient-1 {
         height: 500px;
         width: 500px;
@@ -544,11 +552,10 @@ footer {
     } 
 
     .header-section {
-        padding-top: 110px;
-        height: 65vh;
+        height: 80vh;
     }
 
-    .button-projects {
+    .button-projects,{
         font-size: 21px;
     }
 }
