@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.250em;
+    font-size: 2.938em;
     font-weight: 400;
 }
 
@@ -205,11 +205,12 @@ hr {
     margin: 180px 50px 130px 50px;
 }
 
-.intro-row {
+.intro-row,
+.work-experience-row {
     padding-right: 75px;
 }
 
-.intro-row h3 {
+.intro-row h4 {
     padding-top: 120px;
 }
 /* Projects Section Styling */
@@ -385,14 +386,15 @@ footer {
         margin-bottom: 56px;
     }
     
-    .intro-row {
+    .intro-row,
+    .work-experience-row {
         padding-right: 0;
     }
     
     .intro-col {
         margin-left: 0;
     }
-    .intro-row h3 {
+    .intro-row h4 {
         padding-top: 56px;
         
     }
@@ -492,7 +494,7 @@ footer {
         font-size: 32px;
     }
 
-    h3 {
+    4 {
         font-size: 21px;
         font-weight: normal;
     }
