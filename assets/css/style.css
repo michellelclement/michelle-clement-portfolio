@@ -141,7 +141,6 @@ h5 {
     color: black;
 }
 
-
 /* button Styling */
 
 .button-main {
@@ -404,10 +403,20 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
+        height: 95vh;
+    }
+
+    .header-section-subpage .container {
+        padding-top: 0px;
     }
 
     .personal-images {
         max-height: 350px;
+    }
+
+    .header-button {
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .intro-container {
@@ -498,7 +507,6 @@ footer {
     }
 
     .header-button {
-        margin-top: 10px;
         font-size: 20px;
         margin-bottom: 10px;
     }
