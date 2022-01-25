@@ -302,7 +302,8 @@ hr {
 
 /* Personal images styling */
 
-.personal-images {
+.personal-images,
+.gallery-image {
     border-radius: 10000px;
     border: solid 4px #000000;
     box-shadow: 4px 4px #F08C69, 20px 20px black;
@@ -322,12 +323,11 @@ hr {
 
 .gallery-images {
     display: inline-flex;
-    justify-content: center;
-    overflow: hidden;  
+    justify-content: center;  
 }
 
-.gallery-images img {
-    margin: 20px;
+.gallery-image {
+    margin: 15px;
     max-width: 300px;  
 }
 
@@ -435,6 +435,11 @@ footer {
     .work-experience-row button {
         margin-top: 25px;
     }
+    
+    .gallery-image {
+        max-width: 200px; 
+        margin: 15px; 
+    }
 
     .large-cta-text {
         font-size: 65px;
@@ -509,7 +514,10 @@ footer {
     h5 {
         font-size: 21px;
     }
-
+    
+    .gallery-image {
+        max-width: 150px;  
+    }
 
 }
 
@@ -626,4 +634,5 @@ footer {
     .button-projects {
         font-size: 21px;
     }
+
 }
