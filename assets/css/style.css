@@ -392,10 +392,18 @@ footer {
     .intro-col {
         margin-left: 0;
     }
-    
+
     .intro-row h3 {
         padding-top: 56px;
         
+    }
+
+    .work-experience-row {
+        margin-bottom: 100px;
+    }
+
+    .work-experience-row button {
+        margin-top: 25px;
     }
 
     .large-cta-text {
@@ -422,9 +430,13 @@ footer {
 
 
  @media (max-width: 767.98px) {
+
+    .content-container {
+        padding: 25px;
+    }
     .header-section-subpage {
         padding-top: 0px;
-        height: 90vh;
+        height: 80vh;
     }
 
     .header-xlarge {
@@ -455,7 +467,6 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
-        height: 90vh;
     }
     
     .header-container {
@@ -466,17 +477,21 @@ footer {
     .header-xlarge {
         font-size: 60px;
         line-height: 68.2px;
-       }
+    }
     
-       .job-title h5,
-       h5 {
-        font-size: 20px;
-        line-height: 24px;
+
+    .job-title h5,
+    h5 {
+    font-size: 20px;
+    line-height: 24px;
    }
 
    .header-large {
        font-size: 60px;
-       margin-bottom: 27px;
+   }
+
+   .sub-header {
+       margin-left: 0px;
    }
 
    .profile-image img {
