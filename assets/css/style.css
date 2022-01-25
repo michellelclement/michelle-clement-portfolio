@@ -384,6 +384,14 @@ footer {
         height: 75vh;
     }
 
+    .header-section-subpage {
+        padding-top: 0px;
+    }
+
+    .profile-image img {
+        max-height: 350px;
+    }
+
     .intro-container {
         margin-top: 75px;
         margin-bottom: 56px;
@@ -497,10 +505,11 @@ footer {
         top: -150px;
     } 
 
-
     .header-section-subpage {
         padding-top: 0px;
+        height: 80vh;
     }
+
     
     .header-container {
         padding-top: 0px;
@@ -596,7 +605,7 @@ footer {
         height: 80vh;
     }
 
-    .button-projects,{
+    .button-projects {
         font-size: 21px;
     }
 }
