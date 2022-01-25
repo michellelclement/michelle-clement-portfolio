@@ -315,6 +315,11 @@ hr {
     justify-content: center;
 }
 
+.gallery-images-row {
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+
 .gallery-images {
     display: inline-flex;
     justify-content: center;
