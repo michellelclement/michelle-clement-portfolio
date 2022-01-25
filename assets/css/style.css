@@ -314,6 +314,19 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+.gallery-images {
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;  
+}
+
+.gallery-images img {
+    margin: 20px;
+    max-width: 300px;  
+}
+
+
 /* Footer */
 
 footer {
@@ -388,7 +401,7 @@ footer {
         padding-top: 0px;
     }
 
-    .profile-image img {
+    .personal-images {
         max-height: 350px;
     }
 
@@ -469,7 +482,7 @@ footer {
         margin-bottom: 0px;
     }
 
-    .profile-image img {
+    .personal-images {
         max-height: 300px;
         margin-bottom: 60px
     }
@@ -532,7 +545,7 @@ footer {
        font-size: 60px;
    }
 
-   .profile-image img {
+   .personal-images {
        max-height: 255px;
        margin-bottom: 60px
    }
