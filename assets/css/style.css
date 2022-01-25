@@ -368,6 +368,10 @@ footer {
         line-height: 150px;
     }
 
+    .header-large {
+        font-size: 135px;
+    }
+
     .gradient-1 {
         height: 800px;
         width: 800px;
@@ -432,19 +436,48 @@ footer {
  @media (max-width: 767.98px) {
 
     .content-container {
-        padding: 25px;
+        padding: 10px 25px;
     }
+
     .header-section-subpage {
         padding-top: 0px;
-        height: 80vh;
+        height: 95vh;
     }
 
     .header-xlarge {
         font-size: 105px;
         line-height: 100px;
-       }
+    }
+
+    .header-large {
+        font-size:85px;
+    }
+
+    .sub-header {
+        margin-left: 0px;
+    }
+
+    .sub-header h5 {
+        margin-bottom: 0px;
+    }
+
+    .profile-image img {
+        max-height: 300px;
+        margin-bottom: 60px
+    }
+
+    .header-button {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
     h1 {
         font-size: 36px;
+    }
+
+    h2 {
+        font-size: 48px;
     }
 
     h5 {
@@ -490,17 +523,12 @@ footer {
        font-size: 60px;
    }
 
-   .sub-header {
-       margin-left: 0px;
-   }
-
    .profile-image img {
        max-height: 255px;
        margin-bottom: 60px
    }
 
     .header-button {
-        font-size: 20px;
         margin-top: 0px;
     }
 
