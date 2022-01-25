@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.938em;
+    font-size: 2.250em;
     font-weight: 400;
 }
 
@@ -201,16 +201,15 @@ hr {
 
 /* Intro Section */
 
-.copy-container {
+.intro-container {
     margin: 180px 50px 130px 50px;
 }
 
-.intro-row,
-.work-experience-row {
+.intro-row {
     padding-right: 75px;
 }
 
-.intro-row h4 {
+.intro-row h3 {
     padding-top: 120px;
 }
 /* Projects Section Styling */
@@ -263,6 +262,7 @@ hr {
 /* Technologies Section */
 .technologies-section {
     margin-top: 120px;
+    margin-bottom: 180px
 }
 
 .technologies-section h5 {
@@ -380,20 +380,20 @@ footer {
         height: 75vh;
     }
 
-    .copy-container {
+    .intro-container {
         margin-top: 75px;
         margin-bottom: 56px;
     }
     
-    .intro-row,
-    .work-experience-row {
+    .intro-row {
         padding-right: 0;
     }
     
     .intro-col {
         margin-left: 0;
     }
-    .intro-row h4 {
+    
+    .intro-row h3 {
         padding-top: 56px;
         
     }
@@ -493,7 +493,7 @@ footer {
         font-size: 32px;
     }
 
-    4 {
+    h3 {
         font-size: 21px;
         font-weight: normal;
     }
@@ -502,7 +502,7 @@ footer {
         font-size: 16px;
     }
 
-    .copy-container {
+    .intro-container {
         margin: 75px 50px 50px 50px;
     }
 
