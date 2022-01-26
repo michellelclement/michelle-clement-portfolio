@@ -108,6 +108,21 @@ h5 {
     color: #141414;
 }
 
+.nav-link-contact {
+    background-color: #000000;
+    border-radius: 100000px;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+}
+
+.nav-link-contact:hover {
+    color: lightgrey;
+}
+
 .navbar-brand {
     font-size: 32px;
     font-weight: 500;
@@ -129,6 +144,7 @@ h5 {
 
 /* button Styling */
 
+.nav-contact,
 .button-main {
     background-color: #000000;
     border-radius: 100000px;
@@ -137,14 +153,22 @@ h5 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 27px;
+    font-size: 21px;
     border: none;
+}
+
+.button-main {
+    font-size: 27px;
 }
 
 .button-main:hover {
     color: lightgrey;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 /* Name Section Styling */
 
 .header-section {
