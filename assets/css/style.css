@@ -625,8 +625,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .content-container {
-        padding: px 0px;
+    .header-section-subpage {
+        padding-top: 35px;
     }
 
     .gradient-1 {
@@ -641,6 +641,15 @@ footer {
 
     .button-projects {
         font-size: 21px;
+    }
+
+    .profile-image {
+        padding-top: 25px;
+    }
+
+    .gallery-images-row {
+        margin-bottom: 120px;
+        padding-top: 25px;
     }
 
 }
