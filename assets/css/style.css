@@ -434,12 +434,12 @@ footer {
 
     .header-section {
         padding-top: 100px;
-        height: 75vh;
+        /*height: 75vh;*/
     }
 
     .header-section-subpage {
         padding-top:30px;
-        height: 75vh;
+        /*height: 75vh;*/
     }
 
     .profile-image {
@@ -492,6 +492,11 @@ footer {
     .gallery-image {
         max-width: 200px; 
         margin: 15px; 
+    }
+
+    .project-page-img-row {
+        margin-top: 150px;
+        margin-bottom: 100px;
     }
 
     .large-cta-text {
@@ -653,10 +658,6 @@ footer {
 
     .large-cta-text {
         font-size: 48px;
-    }
-
-    .project-page-img-row {
-        margin-top: 150px;
     }
 
     .footer-slash {
