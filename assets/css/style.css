@@ -510,6 +510,10 @@ footer {
         padding: 10px 25px;
     }
 
+    .images-container {
+        padding: 10px 40px;
+    }
+
     .header-section-subpage {
         padding-top: 0px;
         height: 95vh;
@@ -654,7 +658,11 @@ footer {
     }
     
     .header-section-subpage {
-        padding-top: 35px;
+        padding-top: 62px;
+    }
+
+    .project-header-section {
+        height: 65vh;
     }
 
     .gradient-1 {
@@ -668,13 +676,18 @@ footer {
     }
 
     .header-large {
-        line-height: 75px;
+        font-size: 48px;
+        line-height: 52px;
     }
 
     .sub-header h5 {
-        margin-top: 0px;
+        margin-top: 40px;
+        margin-left: 5px;
     }
 
+    .project-subhead-btn {
+        margin-top: 50px;
+    }
 
     .gallery-images-row {
         margin-bottom: 120px;
