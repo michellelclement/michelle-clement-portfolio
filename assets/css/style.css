@@ -425,8 +425,16 @@ footer {
     }
 
     .header-section-subpage {
-        padding-top: 0px;
-        height: 95vh;
+        padding-top:30px;
+        height: 75vh;
+    }
+
+    .profile-image {
+        padding-top: 25px;
+    }
+
+    .sub-header {
+        margin-left: 0px;
     }
 
     .header-section-subpage .container {
@@ -516,9 +524,6 @@ footer {
         font-size:85px;
     }
 
-    .sub-header {
-        margin-left: 0px;
-    }
 
     .personal-images {
         max-height: 300px;
@@ -663,16 +668,13 @@ footer {
     }
 
     .header-large {
-        line-height: 75px;;
+        line-height: 75px;
     }
 
     .sub-header h5 {
         margin-top: 0px;
     }
-    
-    .profile-image {
-        padding-top: 25px;
-    }
+
 
     .gallery-images-row {
         margin-bottom: 120px;
