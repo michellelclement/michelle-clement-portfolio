@@ -20,7 +20,7 @@ body {
 }
 
 .content-container {
-    max-width: 1200px;
+    max-width: 1300px;
     padding: 40px;
 }
 
@@ -299,6 +299,9 @@ hr {
     margin-top: 34px;
 }
 
+.sub-header h5 {
+    margin-left: 15px;
+}
 /* Personal images styling */
 
 .personal-images,
@@ -495,10 +498,6 @@ footer {
 
     .sub-header {
         margin-left: 0px;
-    }
-
-    .sub-header h5 {
-        margin-bottom: 0px;
     }
 
     .personal-images {
