@@ -169,6 +169,16 @@ a {
     text-decoration: none;
     color: black;
 }
+
+a:hover {
+    color: black;
+}
+
+a h3:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 /* Name Section Styling */
 
 .header-section {
@@ -645,6 +655,10 @@ footer {
    
     .card-body {
         padding-top: 10px;
+    }
+
+    .card-body a h3 {
+        font-size: 27px;
     }
 
     .technologies-section {
