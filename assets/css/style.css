@@ -333,6 +333,26 @@ hr {
     max-width: 300px;  
 }
 
+/* Prjoect Page */
+
+.project-page-row {
+    margin-top: 200px;
+}
+
+.project-page-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-page-img img {
+    border: solid 4px #000000;
+    box-shadow: 4px 4px #F08C69, 24px 24px black;
+    max-width: 1000px;
+}
+
+
+
 
 /* Footer */
 
