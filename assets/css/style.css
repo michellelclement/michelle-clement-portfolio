@@ -237,7 +237,7 @@ hr {
 }
 
 
-.card-img-ctr button {
+.card-img-ctr a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -472,7 +472,7 @@ footer {
         margin-bottom: 100px;
     }
 
-    .work-experience-row button {
+    .work-experience-row a {
         margin-top: 25px;
     }
     
