@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    $(".card-img").hover(
-        function(){$(this).animate({opacity: 0.1,}, 600);},
-        function(){$(this).animate({opacity: 1.0,}, 600);
+    $(".card-img").on("mouseenter", function()
+        {$(this).animate({opacity: 0.1,}, 600);
+        $(this).next(".button-projects").css('visibility', 'visible');
         });
 
-    $(".card-img").hover(
-        function(){$(this).next(".button-projects").css('visibility', 'visible');},
-        function(){$(this).next(".button-projects").css('visibility', 'hidden');
+    $(".card-img").on("mouseleave", function()
+        {$(this).animate({opacity: 1.0,}, 600);
+        $(this).next(".button-projects").css('visibility', 'hidden');
         });
 
     $(".hello-container").hover(
