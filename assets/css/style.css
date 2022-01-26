@@ -37,6 +37,7 @@ body {
 
 .header-large {
     font-size: 8.7em;
+    line-height: 154px;
 }
 
 .large-cta-text {
@@ -293,7 +294,7 @@ hr {
     color: white;
 }
 
-/* About Page Styling */
+/* About & Project Page Page Styling */
 
 .header-button {
     margin-top: 34px;
@@ -301,7 +302,25 @@ hr {
 
 .sub-header h5 {
     margin-left: 15px;
+    margin-top: 58px;
 }
+
+.project-page-img-row {
+    margin-top: 200px;
+}
+
+.project-page-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-page-img img {
+    border: solid 4px #000000;
+    box-shadow: 4px 4px #F08C69, 24px 24px black;
+    max-width: 1000px;
+}
+
 /* Personal images styling */
 
 .personal-images,
@@ -310,7 +329,6 @@ hr {
     border: solid 4px #000000;
     box-shadow: 4px 4px #F08C69, 20px 20px black;
 }
-
 
 .profile-image {
     display: flex;
@@ -331,24 +349,6 @@ hr {
 .gallery-image {
     margin: 15px;
     max-width: 300px;  
-}
-
-/* Prjoect Page */
-
-.project-page-row {
-    margin-top: 200px;
-}
-
-.project-page-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-page-img img {
-    border: solid 4px #000000;
-    box-shadow: 4px 4px #F08C69, 24px 24px black;
-    max-width: 1000px;
 }
 
 
