@@ -108,21 +108,6 @@ h5 {
     color: #141414;
 }
 
-.nav-link-contact {
-    background-color: #000000;
-    border-radius: 100000px;
-    color: white;
-    padding: 8px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 21px;
-}
-
-.nav-link-contact:hover {
-    color: lightgrey;
-}
-
 .navbar-brand {
     font-size: 32px;
     font-weight: 500;
