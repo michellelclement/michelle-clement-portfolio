@@ -644,6 +644,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .content-container {
+        padding: 10px 0px;
+    }
+    
     .header-section-subpage {
         padding-top: 35px;
     }
@@ -654,14 +658,18 @@ footer {
         left: -200px;
     } 
 
-    .header-section {
-        height: 80vh;
-    }
-
     .button-projects {
         font-size: 21px;
     }
 
+    .header-large {
+        line-height: 75px;;
+    }
+
+    .sub-header h5 {
+        margin-top: 0px;
+    }
+    
     .profile-image {
         padding-top: 25px;
     }
