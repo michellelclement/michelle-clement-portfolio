@@ -6,8 +6,8 @@ $(document).ready(function(){
         });
 
     $(".card-img").hover(
-        function(){$(".button-projects").css('visibility', 'visible');},
-        function(){$(".button-projects").css('visibility', 'hidden');
+        function(){$(this).next(".button-projects").css('visibility', 'visible');},
+        function(){$(this).next(".button-projects").css('visibility', 'hidden');
         });
 
     $(".hello-container").hover(
@@ -23,8 +23,7 @@ $(document).ready(function(){
 
 
 
-
-//$(".hello-container").hover (
-//    function(){
-//        $(this).css({'background-color':'#000000'}, "slow");
+//     $(".card-img").hover(
+//    function(){$(this).siblings(".button-projects").css('visibility', 'visible');},
+//    function(){$(this).siblings(".button-projects").css('visibility', 'hidden');
 //    });
