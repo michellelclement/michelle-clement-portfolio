@@ -156,6 +156,10 @@ h5 {
     border: none;
 }
 
+.button-main:hover {
+    color: lightgrey;
+}
+
 /* Name Section Styling */
 
 .header-section {
