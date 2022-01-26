@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    $(".card-img").on("mouseenter", function()
-        {$(this).animate({opacity: 0.1,}, 600);
-        $(this).next(".button-projects").css('visibility', 'visible');
+    $(".card-img-ctr").on("mouseenter", function()
+        {$(this).find(".card-img").animate({opacity: 0.1,}, 600);
+        $(this).find(".button-projects").css('visibility', 'visible');
         });
 
-    $(".card-img").on("mouseleave", function()
-        {$(this).animate({opacity: 1.0,}, 600);
-        $(this).next(".button-projects").css('visibility', 'hidden');
+    $(".card-img-ctr").on("mouseleave", function()
+        {$(this).find(".card-img").animate({opacity: 1.0,}, 600);
+        $(this).find(".button-projects").css('visibility', 'hidden');
         });
 
     $(".hello-container").hover(
