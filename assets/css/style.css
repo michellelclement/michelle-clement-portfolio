@@ -183,7 +183,7 @@ a h3:hover {
 
 .header-section {
     height: 80vh;
-    padding: 40px 40px;
+    padding: 20px 40px 40px 40px;
     position: relative;
     z-index: 97;
 }
