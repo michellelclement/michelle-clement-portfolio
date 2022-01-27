@@ -19,11 +19,11 @@ $(document).ready(function(){
         function(){$(".hello-text").addClass("is-hovered");},
         function(){$(".hello-text").removeClass("is-hovered");
             });
+    
+    // Navbar border hidden when mobile menu opened
+    $(".navbar-toggler").click(function(){
+        $(this).parent('.navbar').addClass("is-clicked");
+        $(this).parent('.navbar').removeClass("is-clicked");
+            });
+    
 })
-
-
-
-//     $(".card-img").hover(
-//    function(){$(this).siblings(".button-projects").css('visibility', 'visible');},
-//    function(){$(this).siblings(".button-projects").css('visibility', 'hidden');
-//    });

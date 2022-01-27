@@ -96,6 +96,11 @@ h5 {
     height: 100px;
 }
 
+.navbar.is-clicked {
+    border-bottom: red;
+}
+
+
 .nav-item {
     margin-left: 2em;
 }
