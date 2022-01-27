@@ -432,7 +432,8 @@ footer {
     }
 
     .header-large {
-        font-size: 135px;
+        font-size: 115px;
+        line-height: 135px;
     }
 
     .gradient-1 {
