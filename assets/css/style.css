@@ -182,7 +182,7 @@ a h3:hover {
 /* Name Section Styling */
 
 .header-section {
-    height: 80vh;
+  /*  height: 80vh; */
     padding: 20px 40px 40px 40px;
     position: relative;
     z-index: 97;
@@ -229,7 +229,7 @@ hr {
 }
 
 .intro-row {
-    padding-right: 75px;
+    padding-right: 50px;
 }
 
 .intro-row h3 {
@@ -545,7 +545,7 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
-        height: 95vh;
+        /*height: 95vh;*/
     }
 
     .header-xlarge {
@@ -598,7 +598,7 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
-        height: 80vh;
+       /* height: 80vh;*/
     }
 
     
@@ -695,7 +695,7 @@ footer {
     }
 
     .project-header-section {
-        height: 65vh;
+       /* height: 65vh; */
     }
 
     .project-page-img-row {
