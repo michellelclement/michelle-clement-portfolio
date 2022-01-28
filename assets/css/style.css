@@ -89,15 +89,19 @@ h5 {
 .navbar {
     position: relative;
     z-index: 98;
-    border-bottom: 4px solid #000000;
+    
     margin-left: 40px;
     margin-right: 40px;
     color: #000000;
     height: 100px;
 }
 
+.navbar-border {
+    border-bottom: 4px solid #000000;
+    transition: 0.1s;
+}
 .navbar.is-clicked {
-    border-bottom-color: red;
+    border-bottom: none;
 }
 
 
