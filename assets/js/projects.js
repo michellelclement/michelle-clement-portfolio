@@ -22,8 +22,7 @@ $(document).ready(function(){
     
     // Navbar border hidden when mobile menu opened
     $(".navbar-toggler").click(function(){
-        $(this).parent('.navbar').addClass("is-clicked");
-        $(this).parent('.navbar').removeClass("is-clicked");
+        $(this).closest('.navbar').toggleClass("is-clicked");
             });
     
 })

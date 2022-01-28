@@ -97,7 +97,7 @@ h5 {
 }
 
 .navbar.is-clicked {
-    border-bottom: red;
+    border-bottom-color: red;
 }
 
 
