@@ -98,10 +98,11 @@ h5 {
 
 .navbar-border {
     border-bottom: 4px solid #000000;
-    transition: 0.1s;
+
 }
 .navbar.is-clicked {
     border-bottom: none;
+    
 }
 
 
