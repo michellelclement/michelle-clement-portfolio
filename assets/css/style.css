@@ -89,7 +89,6 @@ h5 {
 .navbar {
     position: relative;
     z-index: 98;
-    
     margin-left: 40px;
     margin-right: 40px;
     color: #000000;
@@ -455,6 +454,7 @@ footer {
 
     .header-section {
         padding-top: 100px;
+        overflow: visible
         /*height: 75vh;*/
     }
 
