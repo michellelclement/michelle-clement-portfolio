@@ -170,20 +170,17 @@ h5 {
     font-size: 27px;
 }
 
+.nav-contact:hover,
 .button-main:hover {
     color: lightgrey;
 }
 
-a {
+.project-title-link {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
-    color: black;
-}
-
-a h3:hover {
+.project-title-link:hover {
     text-decoration: underline;
     color: black;
 }
