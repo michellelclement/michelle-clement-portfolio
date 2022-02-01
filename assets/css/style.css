@@ -337,10 +337,6 @@ hr {
     margin-top: 34px;
 }
 
-.project-header-section {
-    height: 75vh;
-}
-
 .sub-header h5 {
     margin-left: 15px;
     margin-top: 58px;
@@ -466,10 +462,6 @@ footer {
 
     .header-section-subpage {
         padding-top: 30px;
-    }
-
-    .project-header-section {
-        height: 
     }
 
     .profile-image {
