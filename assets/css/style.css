@@ -318,6 +318,11 @@ hr {
     transition: all 0.5s ease;
 }
 
+.hello-row a {
+    text-decoration: none;
+    color: black;
+}
+
 .hello-container.is-hovered {
     background-color: black;
 }
