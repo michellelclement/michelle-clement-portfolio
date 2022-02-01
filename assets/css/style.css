@@ -277,7 +277,6 @@ hr {
   -ms-transform: translate(-50%, -50%);  
 }
 
-
 .button-projects {
     visibility: hidden;
 }
@@ -289,6 +288,10 @@ hr {
 
 .card-body p {
     padding: 0px;
+}
+
+.third-row-projects {
+    display: none;
 }
 
 /* Technologies Section */
