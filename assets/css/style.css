@@ -389,8 +389,6 @@ hr {
 }
 
 
-
-
 /* Footer */
 
 footer {
@@ -417,7 +415,6 @@ footer {
 .footer-item li a:hover {
     color: lightgrey;
 }
-
 
 .footer-slash {
     margin-left: 15px;
@@ -464,8 +461,8 @@ footer {
     }
 
     .header-section-subpage {
-        padding-top:30px;
-        /*height: 75vh;*/
+        padding-top: 40px;
+        height: 75vh;
     }
 
     .profile-image {
