@@ -318,7 +318,7 @@ hr {
     transition: all 0.5s ease;
 }
 
-.hello-row a {
+.bottom-section-row a {
     text-decoration: none;
     color: black;
 }
@@ -335,6 +335,10 @@ hr {
 
 .header-button {
     margin-top: 34px;
+}
+
+.project-header-section {
+    height: 75vh;
 }
 
 .sub-header h5 {
@@ -462,7 +466,7 @@ footer {
 
     .header-section-subpage {
         padding-top: 40px;
-        height: 75vh;
+        /*height: 75vh;*/
     }
 
     .profile-image {
