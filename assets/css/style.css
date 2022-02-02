@@ -36,7 +36,7 @@ body {
 }
 
 .header-large {
-    font-size: 8.7em;
+    font-size: 8em;
     line-height: 154px;
 }
 
@@ -367,6 +367,10 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.profile-image img {
+    max-width: 320px;
 }
 
 .gallery-images-row {
