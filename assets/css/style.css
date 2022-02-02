@@ -591,7 +591,6 @@ footer {
         font-size:85px;
     }
 
-
     .personal-images {
         max-height: 300px;
         margin-bottom: 60px
@@ -634,7 +633,6 @@ footer {
         padding-top: 0px;
     }
 
-    
     .header-container {
         padding-top: 0px;
         padding: 0px;
@@ -645,7 +643,6 @@ footer {
         line-height: 68.2px;
     }
     
-
     .job-title h5,
     h5 {
     font-size: 20px;
@@ -724,6 +721,11 @@ footer {
     
     .header-section-subpage {
         padding: 50px 20px;
+    }
+
+    .intro-container {
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .project-page-img-row {
