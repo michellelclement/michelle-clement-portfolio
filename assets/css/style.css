@@ -422,18 +422,24 @@ footer {
 
 @media (max-width: 991.98px) { 
     
-    .nav-item {
-        margin: 0px;
+    .navbar {
+        height: 100px;
     }
 
-    .navbar {
-    height: 100px;
+    .nav-item {
+        margin-left: 0px;
     }
 
     .nav-item-about {
         margin: 24px;
     }
     
+    .navbar-collapse {
+        height: 60vh;
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+
     .header-xlarge {
         font-size: 135px;
         line-height: 150px;
@@ -448,7 +454,7 @@ footer {
         height: 800px;
         width: 800px;
         left: -250px;
-        top: -50px
+        top: -20px
     }
 
     .header-section {
@@ -601,7 +607,7 @@ footer {
         height: 600px;
         width: 600px;
         left: -250px;
-        top: -150px;
+        top: 0px;
     } 
 
     .header-section-subpage {
