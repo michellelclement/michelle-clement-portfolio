@@ -90,12 +90,13 @@ h5 {
     position: relative;
     z-index: 98;
     color: #000000;
-    height: 100px;
-    
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .nav-container {
-    background: #F08C69;
+    background-color: #F08C69;
+    min-height: 100px;
 }
 
 /* .navbar-border {
@@ -119,21 +120,6 @@ h5 {
     color: #141414;
 }
 
-.nav-link-contact {
-    background-color: #000000;
-    border-radius: 100000px;
-    color: white;
-    padding: 8px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 27px;
-}
-
-.nav-link-contact:hover {
-    color: lightgrey;
-}
-
 .navbar-brand {
     font-size: 32px;
     font-weight: 500;
@@ -143,6 +129,10 @@ h5 {
 
 .navbar-brand:hover {
     color: #141414;
+}
+
+.nav-contact {
+    margin-right: 40px;
 }
 
 .nav-container {
@@ -155,6 +145,9 @@ h5 {
     margin-right: 40px;
 }
 
+.nav-hr {
+    margin: 0px;
+}
 /* button Styling */
 
 .nav-contact,
