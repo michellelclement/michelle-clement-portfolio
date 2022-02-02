@@ -365,7 +365,8 @@ hr {
             box-shadow: 4px 4px #F08C69, 20px 20px black;
 }
 
-.profile-image {
+.profile-image,
+.gallery-images {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
