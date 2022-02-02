@@ -387,15 +387,6 @@ hr {
     margin-bottom: 200px;
 }
 
-.gallery-images {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;  
-}
-
 .gallery-image {
     margin: 15px;
     max-width: 300px;  
@@ -446,8 +437,6 @@ footer {
 /* Media Queries */
 
 @media (max-width: 991.98px) { 
-
-
     .nav-item {
         margin-left: 0px;
     }
