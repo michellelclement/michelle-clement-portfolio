@@ -92,11 +92,13 @@ h5 {
     color: #000000;
     padding-top: 0px;
     padding-bottom: 0px;
+    
 }
 
 .nav-container {
     background-color: #F08C69;
     min-height: 100px;
+    border-bottom: solid 4px black
 }
 
 /* .navbar-border {
