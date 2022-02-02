@@ -89,20 +89,22 @@ h5 {
 .navbar {
     position: relative;
     z-index: 98;
-    margin-left: 40px;
-    margin-right: 40px;
     color: #000000;
     height: 100px;
+    
 }
 
-.navbar-border {
+.nav-container {
+    background: #F08C69;
+}
+
+/* .navbar-border {
     border-bottom: 4px solid #000000;
 
 }
 .navbar.is-clicked {
     border-bottom: none;
-    
-}
+}*/
 
 
 .nav-item {
@@ -136,6 +138,7 @@ h5 {
     font-size: 32px;
     font-weight: 500;
     color: #000000;
+    margin-left: 40px;
 }
 
 .navbar-brand:hover {
@@ -149,6 +152,7 @@ h5 {
 .navbar-toggler {
     font-size: 32px;
     color: black;
+    margin-right: 40px;
 }
 
 /* button Styling */
