@@ -1,8 +1,3 @@
-/* * {
-    outline: 1px solid red;
-} */
-
-
 html,
 body {
     margin: 0px;
@@ -101,15 +96,6 @@ h5 {
     border-bottom: solid 4px black
 }
 
-/* .navbar-border {
-    border-bottom: 4px solid #000000;
-
-}
-.navbar.is-clicked {
-    border-bottom: none;
-}*/
-
-
 .nav-item {
     margin-left: 2em;
 }
@@ -184,7 +170,6 @@ h5 {
 /* Name Section Styling */
 
 .header-section {
-  /*  height: 80vh; */
     padding: 20px 40px 40px 40px;
     position: relative;
     z-index: 97;
@@ -297,7 +282,7 @@ hr {
     padding-bottom: 58px;
 }
 
-/* Bottom/Hello  Large Text Section */
+/* Bottom/Hello Large Text Section */
 .large-text-center {
     display: flex;
     align-items: center;
@@ -463,7 +448,6 @@ footer {
     .header-section {
         padding-top: 100px;
         overflow: visible
-        /*height: 75vh;*/
     }
 
     .header-section-subpage {
@@ -557,7 +541,6 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
-        /*height: 95vh;*/
     }
 
     .header-xlarge {
@@ -610,7 +593,6 @@ footer {
 
     .header-section-subpage {
         padding-top: 0px;
-       /* height: 80vh;*/
     }
 
     
@@ -703,10 +685,6 @@ footer {
     
     .header-section-subpage {
         padding: 50px 20px;
-    }
-
-    .project-header-section {
-       /* height: 65vh; */
     }
 
     .project-page-img-row {
