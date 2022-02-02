@@ -423,9 +423,12 @@ footer {
     }
     
     .navbar-collapse {
-        height: 60vh;
         padding-left: 30px;
         margin-top: 30px;
+    }
+
+    .navbar-collapse ul {
+        margin-bottom: 100px;
     }
 
     .header-xlarge {
