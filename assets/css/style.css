@@ -228,7 +228,7 @@ hr {
 /* Intro Section */
 
 .intro-container {
-    margin: 180px 50px 130px 50px;
+    margin: 50px 50px 130px 50px;
 }
 
 .intro-row {
@@ -489,7 +489,7 @@ footer {
     }
 
     .intro-container {
-        margin-top: 75px;
+        margin-top: 25px;
         margin-bottom: 56px;
     }
     
@@ -499,11 +499,6 @@ footer {
     
     .intro-col {
         margin-left: 0;
-    }
-
-    .intro-col {
-        padding-top: 56px;
-        
     }
 
     .work-experience-row {
@@ -659,10 +654,9 @@ footer {
         font-size: 16px;
     }
 
-    .intro-container {
-        margin: 75px 50px 50px 50px;
+    .intro-col {
+        margin-top: 50px;
     }
-
    .card {
     padding-top: 0px;
     margin-top: 50px;
