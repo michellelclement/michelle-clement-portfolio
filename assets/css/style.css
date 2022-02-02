@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 html,
 body {
     margin: 0px;
@@ -187,6 +194,7 @@ h5 {
     position: absolute;
     z-index: -1;
     background: rgb(81,103,240);
+    background: -o-radial-gradient(circle, rgba(81,103,240,0.41360294117647056) 30%, rgba(64,77,163,0) 70%);
     background: radial-gradient(circle, rgba(81,103,240,0.41360294117647056) 30%, rgba(64,77,163,0) 70%);
     top: 100px;
     left: 750px;
@@ -247,7 +255,8 @@ hr {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);  
 }
 
@@ -280,17 +289,21 @@ hr {
 
 /* Bottom/Hello Large Text Section */
 .large-text-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 120px 40px;
 }
 
 .hello-container,
 .hello-text {
     -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -324,14 +337,21 @@ hr {
 }
 
 .project-page-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .project-page-img img {
     border: solid 4px #000000;
-    box-shadow: 4px 4px #F08C69, 24px 24px black;
+    -webkit-box-shadow: 4px 4px #F08C69, 24px 24px black;
+            box-shadow: 4px 4px #F08C69, 24px 24px black;
     max-width: 1000px;
 }
 
@@ -341,13 +361,20 @@ hr {
 .gallery-image {
     border-radius: 10000px;
     border: solid 4px #000000;
-    box-shadow: 4px 4px #F08C69, 20px 20px black;
+    -webkit-box-shadow: 4px 4px #F08C69, 20px 20px black;
+            box-shadow: 4px 4px #F08C69, 20px 20px black;
 }
 
 .profile-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .profile-image img {
@@ -360,8 +387,12 @@ hr {
 }
 
 .gallery-images {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: center;  
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;  
 }
 
 .gallery-image {
@@ -377,15 +408,24 @@ footer {
     margin-right: 40px;
     color: #000000;
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 27px;
 }
 
 .footer-item {
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
 }
 
 .footer-item li a {
@@ -519,7 +559,9 @@ footer {
   
     .footer-item,
     .footer-c {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 
