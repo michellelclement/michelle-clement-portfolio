@@ -21,8 +21,8 @@ $(document).ready(function(){
             });
     
     // Navbar border hidden when mobile menu opened
-    $(".navbar-toggler").click(function(){
-        $(this).closest('.navbar-border').toggleClass("is-clicked");
-            });
+    //$(".navbar-toggler").click(function(){
+    //    $(this).closest('.navbar-border').toggleClass("is-clicked");
+    //        });
     
 })
