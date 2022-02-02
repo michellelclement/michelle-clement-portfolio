@@ -238,8 +238,8 @@ hr {
     padding-right: 50px;
 }
 
-.intro-row h3 {
-    padding-top: 120px;
+.intro-col {
+    margin-top: 120px;
 }
 /* Projects Section Styling */
 
@@ -498,7 +498,7 @@ footer {
         margin-left: 0;
     }
 
-    .intro-row h3 {
+    .intro-col {
         padding-top: 56px;
         
     }
