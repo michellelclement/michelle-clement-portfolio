@@ -136,7 +136,7 @@ h5 {
     margin-right: 40px;
 }
 
-/* button Styling */
+/* button and Link Styling */
 
 .nav-contact,
 .button-main {
@@ -168,6 +168,47 @@ h5 {
 .project-title-link:hover {
     text-decoration: underline;
     color: black;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #000000;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 27px;
+}
+
+.footer-item {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: lightgrey;
+}
+
+.footer-slash {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* Name Section Styling */
@@ -321,6 +362,8 @@ hr {
     color: white;
 }
 
+
+
 /* About & Project Page Page Styling */
 
 .header-button {
@@ -393,48 +436,7 @@ hr {
 }
 
 
-/* Footer */
 
-footer {
-    margin-left: 40px;
-    margin-right: 40px;
-    color: #000000;
-    height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 27px;
-}
-
-.footer-item {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-}
-
-.footer-item li a {
-    color: black;
-    text-decoration: none;
-}
-
-
-
-.footer-item li a:hover {
-    color: lightgrey;
-}
-
-.footer-slash {
-    margin-left: 15px;
-    margin-right: 15px;
-}
 
 /* Media Queries */
 
@@ -744,7 +746,7 @@ footer {
         margin-left: 5px;
     }
 
-    .project-subhead-btn {
+    .project-launch-btn {
         margin-top: 50px;
     }
 
