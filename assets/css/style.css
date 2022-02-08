@@ -671,6 +671,7 @@ hr {
     .intro-col {
         margin-top: 50px;
     }
+
    .card {
     padding-top: 0px;
     margin-top: 50px;
@@ -684,6 +685,10 @@ hr {
         font-size: 27px;
     }
 
+    .project-links-comtainer {
+        padding-left: 0px;
+    }
+    
     .technologies-section {
         margin-top: 40px;
         margin-bottom: 100px
@@ -744,10 +749,6 @@ hr {
     .sub-header h5 {
         margin-top: 40px;
         margin-left: 5px;
-    }
-
-    .project-launch-btn {
-        margin-top: 50px;
     }
 
     .gallery-images-row {
