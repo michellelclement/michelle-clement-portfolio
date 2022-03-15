@@ -19,10 +19,4 @@ $(document).ready(function(){
         function(){$(".hello-text").addClass("is-hovered");},
         function(){$(".hello-text").removeClass("is-hovered");
             });
-    
-    // Navbar border hidden when mobile menu opened
-    //$(".navbar-toggler").click(function(){
-    //    $(this).closest('.navbar-border').toggleClass("is-clicked");
-    //        });
-    
 })
